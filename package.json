@@ -1,0 +1,10 @@
+{
+    "name" :"studyquest",
+    "version": "1.0.0",
+    "description": "Aplikasi Manajemen Tugas Kuliah Berbasis Node.js",
+    "type" : "module",
+    "main":"main.js",
+    "scripts" : {
+        "start" : "node main.js"
+    }
+}
