@@ -7,6 +7,17 @@ export const tambahTugas = (nama, mataKuliah, deadline, prioritas) => {
             pesan : "Nama dan mata kuliah tidak boleh kosong"
         };
     }
+
+    const namaDuplikat = daftarTugas.some(
+    tugas => tugas.nama.toLowerCase() === nama.trim().toLowerCase()
+);
+
+if (namaDuplikat) {
+    return {
+        berhasil: false,
+        pesan: "Nama tugas sudah ada!"
+    };
+}
     const idBaru = daftarTugas.length === 0 
     ? 1
    : Math.max(...daftarTugas.map(tugas => tugas.id)) + 1;
