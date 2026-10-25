@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nama": "Laporan Praktikum",
+        "mataKuliah": "Dasar Pemrograman",
+        "deadline": "2026-10-27",
+        "prioritas": "Tinggi",
+        "status": "Belum Selesai"
+    },
+    {
+        "id": 2,
+        "nama": "Tugas PJBL",
+        "mataKuliah": "MKWK",
+        "deadline": "2026-12-03",
+        "prioritas": "Sedang",
+        "status": "Belum Selesai"
+    }
+]
